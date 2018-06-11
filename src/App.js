@@ -15,7 +15,7 @@ class App extends Component {
   };
 
   getMessage = () => {
-    console.log("in getMessage");
+    //determines the game status and updates the header message accordingly.
     if (this.state.gameStatus === "Not Started") {
       this.setState({ headMessage: "Click an Image to Begin!" });
     } else if (this.state.gameStatus === "In Progress") {
@@ -25,36 +25,34 @@ class App extends Component {
       () => {
         this.gameOver()
       });
-      //end game logic
     }
-    console.log("third waterfalls: ", this.state.Waterfalls);
-    console.log("gameStatus ", this.state.gameStatus);
-    console.log("headmessage ", this.state.headMessage);
   };
 
   clickedImage = id => {
-    console.log("in clickedImage");
+    //gets the id of the clicked waterfall image.
     const result = this.state.Waterfalls.find( waterfall => waterfall.id === id );
-    console.log(result);
     
+    //checks to see if image has been clicked already.
     if (result.isClicked === false) {
-      console.log("in clickedImage true path");
       this.state.Waterfalls.forEach((waterfall, index) => {
         if(waterfall.id === id) {
             waterfall.isClicked = true;
         }
       })
-      console.log("this state ", this.state.highScore);
+      //Will update highscore is greater than current score
       if (this.state.currentScore >= this.state.highScore) {
           this.setState({ highScore: this.state.highScore + 1 })
       };
+      //updates current score & game status then updates the header message
       this.setState({ currentScore: this.state.currentScore + 1, 
         gameStatus: "In Progress"},
         () => {
           this.getMessage()
         });
+      //calls function to shuffle the waterfall images.
+      this.shuffleArray(this.state.Waterfalls);
     } else {
-      console.log("in clickedImage false path");
+      //If image already clicked, will end the game and reset current score to 0.
       this.setState({ currentScore: 0,
         gameStatus: "Game Over"},
         () => {
@@ -63,6 +61,15 @@ class App extends Component {
     }
   };
 
+  //shuffles the waterfalls array for each image click
+  shuffleArray = (Waterfalls) => {
+    for (let i = Waterfalls.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [Waterfalls[i], Waterfalls[j]] = [Waterfalls[j], Waterfalls[i]]; 
+    }
+}
+
+  //Resets all the waterfalls to isClicked false so you can play again.
   gameOver = () => {
     this.state.Waterfalls.forEach((waterfall, index) => {
       waterfall.isClicked = false;

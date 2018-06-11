@@ -6,9 +6,6 @@ const Waterfall = props => (
     <div className="img-container">
       <img alt={props.name} src={props.image} id={props.id}/>
     </div>
-    {/* <span onClick={() => props.removeFriend(props.id)} className="remove">
-      𝘅
-    </span> */}
   </div>
 );
 
