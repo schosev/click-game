@@ -2,61 +2,73 @@
   {
     "id": 1,
     "name": "Waterfall 1",
-    "image": "https://images.pexels.com/photos/414061/pexels-photo-414061.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350"
+    "image": "https://images.pexels.com/photos/414061/pexels-photo-414061.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
+    "isClicked": false
   },
   {
     "id": 2,
     "name": "Waterfall 2",
-    "image": "https://images.pexels.com/photos/6832/waterfall-beauty-lets-explore-lets-get-lost.jpg?auto=compress&cs=tinysrgb&dpr=2&h=350"
+    "image": "https://images.pexels.com/photos/6832/waterfall-beauty-lets-explore-lets-get-lost.jpg?auto=compress&cs=tinysrgb&dpr=2&h=350",
+    "isClicked": false
   },
   {
     "id": 3,
     "name": "Waterfall 3",
-    "image": "https://images.pexels.com/photos/68147/waterfall-thac-dray-nur-buon-me-thuot-daklak-68147.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350"
+    "image": "https://images.pexels.com/photos/68147/waterfall-thac-dray-nur-buon-me-thuot-daklak-68147.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
+    "isClicked": false
   },
   {
     "id": 4,
     "name": "Waterfall 4",
-    "image": "https://images.pexels.com/photos/62627/niagara-cases-water-waterfall-62627.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350"
+    "image": "https://images.pexels.com/photos/62627/niagara-cases-water-waterfall-62627.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
+    "isClicked": false
   },
   {
     "id": 5,
     "name": "Waterfall 5",
-    "image": "https://images.pexels.com/photos/356831/pexels-photo-356831.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350"
+    "image": "https://images.pexels.com/photos/356831/pexels-photo-356831.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
+    "isClicked": false
   },
   {
     "id": 6,
     "name": "Waterfall 6",
-    "image": "https://images.pexels.com/photos/213950/pexels-photo-213950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350"
+    "image": "https://images.pexels.com/photos/213950/pexels-photo-213950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
+    "isClicked": false
   },
   {
     "id": 7,
     "name": "Waterfall 7",
-    "image": "https://images.pexels.com/photos/327394/pexels-photo-327394.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350"
+    "image": "https://images.pexels.com/photos/327394/pexels-photo-327394.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
+    "isClicked": false
   },
   {
     "id": 8,
     "name": "Waterfall 8",
-    "image": "https://images.pexels.com/photos/210186/pexels-photo-210186.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350"
+    "image": "https://images.pexels.com/photos/210186/pexels-photo-210186.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
+    "isClicked": false
   },
   {
     "id": 9,
     "name": "Waterfall 9",
-    "image": "https://images.pexels.com/photos/50588/kuang-si-falls-waterfall-water-laos-50588.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350"
+    "image": "https://images.pexels.com/photos/50588/kuang-si-falls-waterfall-water-laos-50588.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
+    "isClicked": false
   },
   {
     "id": 10,
     "name": "Waterfall 10",
-    "image": "https://images.pexels.com/photos/457538/pexels-photo-457538.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350"
+    "image": "https://images.pexels.com/photos/457538/pexels-photo-457538.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
+    "isClicked": false
   },
   {
     "id": 11,
     "name": "Waterfall 11",
-    "image": "https://images.pexels.com/photos/464391/pexels-photo-464391.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350"
+    "image": "https://images.pexels.com/photos/464391/pexels-photo-464391.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
+    "isClicked": false
   },
   {
     "id": 12,
     "name": "Waterfall 12",
-    "image": "https://images.pexels.com/photos/697640/pexels-photo-697640.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350"
+    "image": "https://images.pexels.com/photos/697640/pexels-photo-697640.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
+    "isClicked": false
   }
 ]

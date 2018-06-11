@@ -1,8 +1,10 @@
-.title {
-  width: 100%;
+.header{
+  max-width: 100%;
   text-align: center;
-  font-size: 3rem;
-  text-decoration: underline;
-  color: #2A77AE;
-  margin-bottom: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  /* background-color: #3399ff; */
+  background: linear-gradient(to right, #0066cc, #0080ff, #3399ff, #3399ff, #0080ff, #0066cc);
+  /* margin-bottom: 50px; */
 }
